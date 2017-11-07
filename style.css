@@ -1,0 +1,158 @@
+html {
+	width: 100%
+}
+
+body {
+	font-family: "Trebuchet MS", verdana, arial, "Times New Roman";
+	font-size: 90%;
+	color: #3D3535;
+	background-color: #E4E5E0;
+	margin: 20px;
+	padding: 0px;
+	line-height: 140%;
+}
+
+.all {
+	text-align: center; 
+	width: 100%;
+}
+
+.box {
+	background-color: #FFFFFF;
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 20px; 
+	text-align: left; 
+	width: 90%;
+}
+
+.menu {
+	background-color: #FFFFFF;
+	text-align: left; 
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.header {
+	background: #EDEEEA url(images/bg.jpg) repeat-x center;
+	margin-top:3px;
+	height: 95px;
+}
+
+.header h1 {
+color:#fff
+}
+
+.menu a:link, .menu a:active, .menu a:visited {
+	background: #EDEEEA url(images/corner.gif) no-repeat right top;
+	color: #3D3535;
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;
+	margin: 0 0 0 4px;
+}
+
+.menu a:hover {
+	background: #D6D8CF url(images/corner2.gif) no-repeat right top;
+	color: #000000;
+	text-decoration: none;
+	padding: 3px 7px 3px 7px;
+	margin: 0 0 0 4px;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.content {
+	margin-right: 255px;
+	padding: 20px;
+}
+
+.content h1 {
+	font-size: 110%;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 2px solid #8B2F0E;
+}
+
+.newsbar {
+	margin-top: 40px;
+	width: 245px;
+	float: right;
+}
+
+.newsbar h1 {
+	background-color: #8B2F0E;
+	color: #FFFFFF;
+	padding: 3px;
+	margin: 0px 0px 0px 0px;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.p1 {
+	padding: 20px;
+	background-color: #F7F7F4;
+	font-size:90%;
+}
+
+.p2 {
+	padding: 20px;
+	background-color: #FFFFFF;
+	font-size: 90%;
+	list-style-image: url(images/b.gif);
+	list-style-position: 10px;
+}
+
+.p2 ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.footer {
+	clear:both;
+	background-color: #D6D8CF;
+	padding: 4px;
+	font-size: 80%;
+	text-align: center;
+}
+
+a:link, a:active, a:visited {
+	color: #8B2F0E;
+}
+
+a:hover {
+	color: #8B2F0E;
+	text-decoration: none;
+}
+
+.style1 {color: #8B2F0E}
+
+content p{
+	text-align: justify;
+	padding-right: 30px;
+	width: 900px;
+}
+
+footer{
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 20px; 
+	text-align: left; 
+	width: 95%;
+}
